@@ -1,0 +1,112 @@
+
+.navbar {
+  overflow: hidden;
+    border-radius: 5px;
+    padding: 3px 50px;
+  background-color: #80593d;
+  font-family: monospace;
+    padding-left: 400px;
+    padding-right: 300px
+}
+
+.navbar a {
+  float: left;
+  font-size: 17px;
+  color: white;
+  text-align: center;
+  padding: 30px 29px;
+  text-decoration: none;
+  
+}
+
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+
+.dropdown .dropbtn {
+  font-size: 17px; 
+  border: none;
+  outline: none;
+  color: white;
+  padding: 30px 50px;
+  background-color: inherit;
+  font-family: inherit; 
+  margin: 0; 
+  font-weight: 900;
+}
+
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #Cd044a; color: white;
+}
+
+.navbar a:visited, .dropdown:visited .dropbtn {
+   color: white;
+}
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #80593d;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+color: white;
+}
+
+
+.dropdown-content a:hover {
+  background-color: #Cd044a;
+}
+
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+a:link {
+    color: white;
+    font-weight: 900;
+    text-decoration: underline;
+}
+
+
+a:hover{
+    color: white;
+    text-decoration:underline;
+}
+
+a:visited{
+    color: white;
+}
+
+h1 {text-align: center; font-family: monospace; background-color: #80593d; color: white; margin-bottom: 0; border-radius: 5px; margin-top: 20;}
+
+h2 {text-align: right; background-color: #5ab58d; color: #Cd044a; margin: 0; border-radius: 5px}
+
+h3 {color: #80593d; font-size: 27px; padding-left: 20px; text-align: center}
+
+h4 {padding-right: 20px; padding-left: 20px; font-size: 19; font-family: monospace; color: white}
+
+body {background-color: #5ab58d}
+
+p{font-family: monospace; font-size: 18px;  padding-left: 20px;  line-height: 29px;  color: white;  padding-right: 15px;}
+
+footer {padding-left: 20px; padding-top: 5px; padding-bottom: 5px;text-align: center; font-family: monospace;color: #80593d; font-size: 15px;}
+    
+
